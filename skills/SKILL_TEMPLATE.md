@@ -1,6 +1,6 @@
 ---
-name: { { name } }
-description: { { description } }
+name: {{name}}
+description: {{description}}
 allowed-tools:
   - run_command
   - read_file
@@ -17,7 +17,7 @@ allowed-tools:
 1. [Step 1]
 2. [Step 2]
 
-## Utilty Scripts
+## Utility Scripts
 
 [Reference to scripts in scripts/ folder if any]
 
