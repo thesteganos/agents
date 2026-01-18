@@ -51,7 +51,7 @@ _Wait for the JSON output confirming success and the path to the new file._
 
 Read the global lessons file:
 
-```bash
+```
 read_file system/lessons.md
 ```
 
@@ -63,7 +63,7 @@ read_file system/lessons.md
 ### 4. Write Content (Intelligence)
 
 Read the newly created `SKILL.md`. You will see that the Header (YAML) is correctly filled, but the Body contains generic placeholders like `[Step 1]` or `[Goal]`.
-Use `replace_file_content` to **rewrite the body sections** with the specific logic for this capabilities.
+Use `replace_file_content` to **rewrite the body sections** with the specific logic for this capability.
 
 **Drafting Rules:**
 

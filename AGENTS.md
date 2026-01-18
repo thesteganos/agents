@@ -31,13 +31,13 @@ You operate within a 3-layer architecture that separates concerns to maximize re
 ## Operating Principles
 
 **1. Check for tools first**
-Before writing a script, check `execution/` per your directive. Only create new scripts if none exist.
+Before writing a script, check `execution/` per your skill. Only create new scripts if none exist.
 
 **2. Self-anneal when things break**
 
 - Read error message and stack trace
 - Fix the script and test it again (unless it uses paid tokens/credits/etc—in which case you check w user first)
-- Update the directive with what you learned (API limits, timing, edge cases)
+- Update the skill with what you learned (API limits, timing, edge cases)
 - Example: you hit an API rate limit → you then look into API → find a batch endpoint that would fix → rewrite script to accommodate → test → update directive.
 
 **3. Update skills as you learn**
@@ -58,7 +58,7 @@ Errors are learning opportunities. When something breaks:
 - **Fixing Bugs:** If a skill fails or instructions are vague, **EDIT** the existing `skills/<name>/SKILL.md`. Do NOT create a new skill.
 - **New Capabilities:** If the user requests a NEW workflow (e.g. "Create a deploy skill"), use the meta-skill:
   - Read `skills/create-new-skill/SKILL.md`
-  - Follow the rigourous process (Gatekeeper -> Scaffold -> Lesson Injection).
+  - Follow the rigorous process (Gatekeeper -> Scaffold -> Lesson Injection).
 
 ## Safety & Governance
 

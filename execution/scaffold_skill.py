@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 import argparse
-import os
 import re
 import sys
 import json
-from datetime import datetime
 from pathlib import Path
 
 # Configuration
