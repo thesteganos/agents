@@ -1,12 +1,12 @@
 ---
-name: skill-name-slug
-description: One line description of what this skill does
+name: { { name } }
+description: { { description } }
 allowed-tools:
   - run_command
   - read_file
 ---
 
-# [Skill Name]
+# [{{name}}]
 
 ## Goal
 

@@ -53,6 +53,13 @@ Errors are learning opportunities. When something breaks:
 4. Update skill to include new flow
 5. System is now stronger
 
+### Maintenance vs. Creation
+
+- **Fixing Bugs:** If a skill fails or instructions are vague, **EDIT** the existing `skills/<name>/SKILL.md`. Do NOT create a new skill.
+- **New Capabilities:** If the user requests a NEW workflow (e.g. "Create a deploy skill"), use the meta-skill:
+  - Read `skills/create-new-skill/SKILL.md`
+  - Follow the rigourous process (Gatekeeper -> Scaffold -> Lesson Injection).
+
 ## Safety & Governance
 
 **Prohibited Actions:**
