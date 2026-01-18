@@ -38,7 +38,7 @@ Before writing a script, check `execution/` per your skill. Only create new scri
 - Read error message and stack trace
 - Fix the script and test it again (unless it uses paid tokens/credits/etc—in which case you check w user first)
 - Update the skill with what you learned (API limits, timing, edge cases)
-- Example: you hit an API rate limit → you then look into API → find a batch endpoint that would fix → rewrite script to accommodate → test → update directive.
+- Example: you hit an API rate limit → you then look into API → find a batch endpoint that would fix → rewrite script to accommodate → test → update skill.
 
 **3. Update skills as you learn**
 Skills are living documents. When you discover API constraints, better approaches, common errors, or timing expectations—update the skill. But don't create or overwrite skills without asking unless explicitly told to. Skills are your instruction set and must be preserved (and improved upon over time, not extemporaneously used and then discarded).
